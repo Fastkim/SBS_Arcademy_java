@@ -1,0 +1,72 @@
+
+	데이터 형(data type)
+	정수 형 : short, int ==> int a
+	실수 형 : float, double
+	문자 형 : char
+
+	문자열 : String str(클래스 형태로 존재) ==> str은 String의 참조 변수
+	(Scanner sc = new Scanner(System.in);)
+	Scanner sc;
+
+	참조 변수 ==> 객체
+	
+	대입 연산자 , 증감연산자(++,--)
+		이항연산자(+=,-=,*=,/=...)
+
+	=(+= : a +=3, a = a + 3
+	   -= : a -=3, a = a - 3
+	   *= : a *=3 ,a = a * 3
+	   /= : a /=3, a = a / 3
+
+
+	조건문 : if문, switch ~ case 문
+
+	반복문 : for문 , while 문
+
+	
+	ex1)Scanner class 이용하여 정수 하나를 입력 받는다.
+	     입력 받는 정수가 짝수 인지 혹은 홀수 인지 확인하는 프로그램 작성
+
+	ex2) Scanner class 이용하여 간단한 사칙 연산 계산기를 코딩
+	      출력 예]
+	      첫번째 정수를 입력해 주세요 : 10
+	      계산할 연산자를 입력해 주세요 : *
+	      두번째 정수를 입력해 주세요 : 20
+
+	      10 * 20 = 200입니다.
+
+	      연산자 : +, -, *, /  ==> 문자
+	      nextInt() : 정수를 입력
+	      next() : 문자열을 입력받는 메서드
+	      charAt() : 문자열중 해당하는 인덱스 값에 있는 문자 추출
+
+	      ch = sc.next().charAt(0);
+	      
+
+   	      Scanner class ==> 
+	      nextInt() : 정수형
+	      next(): 문자열
+	      nextLine() : 문자열(한줄)
+
+
+	switch ~ case ==> 메뉴 선택
+
+	반복문 for ==> 여러번 수행할 것을 한번에 실행
+
+	for(초기값;조건문;증가값)
+	
+	
+
+	예제) Scanner class 이용해서
+	1부터 입력한 수까지의 합을 구하는 프로그램 작성
+
+
+	예제 ) Scanner class 이용해서
+	원하는 구구단을 입력받아 구구단 출력하는 프로그램 작성
+
+
+
+
+
+
+
